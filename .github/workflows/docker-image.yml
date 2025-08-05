@@ -32,4 +32,4 @@ jobs:
 
     - name: Push Docker Image to Docker Hub
       run: |
-        docker push sharmarakesh/violetapple-springboot-project:latest
+        docker push Gyanendu23/violetapple-springboot-project:latest
