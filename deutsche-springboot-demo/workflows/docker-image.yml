@@ -24,7 +24,7 @@ jobs:
       run: mvn clean package -DskipTests
 
     - name: Log in to Docker Hub using CLI
-      run: docker login -u sharmarakesh -p ${{ secrets.DOCKER_HUB_TOKEN }}
+      run: docker login -u sharmarakesh -p ${{ secrets.SPRING_SECRET}}
 
     - name: Build Docker Image
       run: |
